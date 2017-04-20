@@ -1,0 +1,591 @@
+body{
+	min-width: 760px;
+	font-family: arial,SimHei;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin:0;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 100%;
+}
+header .headerContent{
+	position: relative;
+	height: 105px;
+	width: 1150px;
+	margin:0 auto;
+	z-index: 10;
+}
+.changeSkin{
+	float: left;
+	height: 105px;
+	line-height: 105px;
+}
+.changeSkin li{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.changeSkin li:nth-child(1){
+	background: #ff6666;
+}
+.changeSkin li:nth-child(2){
+	background: #6666ff;
+}
+.changeSkin li:nth-child(3){
+	background: #0080ff;
+}
+.changeSkin li:nth-child(4){
+	background: #0ba15d;
+}
+
+header .logo{
+	background: url(../images/logo.png) no-repeat;
+	width: 100px;
+	height: 100px;
+	margin:0 auto;
+}
+header .logo a.logoLink{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header .headerContent .search{
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+.search .searchBtn{
+	background: #333;
+	border:0;
+	color: #fff;
+	width: 80px;
+	height: 30px;
+}
+.search .searchText{
+	border:1px solid #333;
+	height: 26px;
+	width: 280px;
+
+}
+/*导航*/
+nav{
+	width: 100%;
+	height:40px;
+	position: relative;
+	background-color: #333;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+nav .navContent{
+	width: 1150px;
+	margin:0 auto;
+}
+nav .navContent ul li{
+	display: inline-block;
+	width: 136.5px;
+	line-height: 40px;
+}
+nav .navContent ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav .navContent ul li a{
+	display: inline-block;
+	line-height: 26px;
+}
+.content{
+	width: 1150px;
+	margin:10px auto 0;
+}
+.navContent ul li a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+/*回到顶部*/
+.dn{
+	display: none;
+}
+
+.go-top{
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	width: 46px;
+	z-index: 999;
+}
+.go-top a{
+	display: block;
+	width: 46px;
+	height: 46px;
+	margin-bottom: 10px;
+	background-image: url(../images/go-top.png);
+}
+.go-top a:last-child{
+	margin-bottom: 0;
+}
+.go-top .go{
+	background-position: 0 -150px;
+}
+.go-top .go:hover{
+	background-position: 0 -250px;
+}
+.go-top .feedback{
+	background-position: 0 -100px;
+}
+.go-top .feedback:hover{
+	background-position: 0 -300px;
+}
+.go-top .uc-2vm{
+	background-position: 0 0;
+}
+.go-top .uc-2vm:hover{
+	background-position: 0 -350px;
+}
+
+.go-top .uc-2vm-pop{
+	position: absolute;
+	right: 60px;
+	top: -100px;
+	width: 140px;
+	box-shadow: 0px 1px 4px rgba(0,0,0,.1);
+	background: #fff;
+}
+.go-top .uc-2vm-pop .title-2wm{
+	font-size: 14px; 
+	margin: 10px 20px;
+	color:#333;
+}
+.go-top .uc-2vm-pop .logo-2wm-box{
+	position: relative;
+}
+
+
+
+/*轮播图*/
+.flexslider {
+	margin: 0px auto 20px;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.flexslider .slides li {
+	width: 100%;
+	height: 100%;
+}
+
+.flex-direction-nav a {
+	width: 70px;
+	height: 70px;
+	line-height: 99em;
+	overflow: hidden;
+	margin: -35px 0 0;
+	display: block;
+	background: url(../images/ad_ctr.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all .3s ease;
+	border-radius: 35px;
+}
+
+.flex-direction-nav .flex-next {
+	background-position: 0 -70px;
+	right: 0;
+}
+
+.flex-direction-nav .flex-prev {
+	left: 0;
+}
+
+.flexslider:hover .flex-next {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-prev {
+	opacity: 0.8;
+	filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+	opacity: 1;
+	filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.flex-control-nav li {
+	margin: 0 2px;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.flex-control-paging li a {
+	background: url(../images/dot.png) no-repeat 0 -16px;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -99em;
+	width: 16px;
+	cursor: pointer;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+	background-position: 0 0;
+}
+
+.flexslider .slides a img {
+	width: 100%;
+	height: 482px;
+	display: block;
+}
+
+/*商品排列*/
+.newGoods,.tops,.bottoms{
+	width: 1150px;
+	margin:30px auto 20px;
+	clear: both;
+	overflow: auto;
+}
+
+.styleTitle{
+	margin:10px 0;
+	position: relative;
+}
+.styleTitle h2{
+	margin:0 auto;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #333;
+	text-align: center;
+	font-size: 17px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+.styleTitle .changeColumn{
+	float: right;
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 13px;
+}
+
+.icon1,.icon4{
+	background: url(../images/3column.png) no-repeat;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon2,.icon3{
+	background: url(../images/4column.png) no-repeat;
+	background-size: 20px 20px;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+.goodsBox{
+	margin-top: 20px;
+}
+/*三列分部样式*/
+.newGoods .goodsItem{
+	float: left;
+	width: 370px;
+	height: 400px;
+	padding: 0 0 20px 20px;
+}
+.newGoods .goodsItem1,.newGoods .goodsItem4,.newGoods .goodsItem7,.newGoods .goodsItem10{
+	padding-left: 0;
+}
+.newGoods .goodsBox ul li a img{
+	width: 370px;
+	height: 370px;
+}
+.goodsTitle p{
+	font-size: 12px;
+	color: #848484;
+	text-align: center;
+	margin:0;
+	line-height: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+.goodsItem p.goodsPrice{
+	text-align: center;
+	font-size: 14px;
+}
+.goodsImg img:hover{
+	opacity: 0.7;
+}
+/*上装   四列分部样式*/
+.tops .goodsItem{
+	float: left;
+	width: 280px;
+	height: 310px;
+	padding: 0 0 20px 10px;
+}
+.tops .goodsItem1,.tops .goodsItem5,.tops .goodsItem9,.tops .goodsItem13{
+	padding-left: 0;
+}
+.tops .goodsBox ul li a img{
+	width: 280px;
+	height: 280px;
+}
+
+/*footTop部分*/
+.footTop{
+	width: 100%;
+	background: #eee;
+	margin-top: 30px;
+	padding:30px 0;
+	box-sizing: border-box;
+}
+.footTop dl.footTopContent{
+	width: 1150px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.footTop dl.footTopContent .dd{
+	float: left;
+	width: 370px;
+	margin-right: 20px;
+}
+.footTop dl.footTopContent .dd .title{
+	position: relative;
+	text-align: center;
+}
+.footTop dl.footTopContent .dd .title .titleLine{
+	border-bottom: 1px solid #ddd;
+	position: absolute;
+	top: 9px;
+	left: 0;
+	width: 100%;
+}
+.footTop dl.footTopContent .dd .title .titleText{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+.footTop dl.footTopContent .dd .title .titleText span{
+	background: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 0 10px;
+}
+.footTop dl.footTopContent .dd .panel{
+	background: #fff;
+	padding: 20px;
+}
+.footTop dl.footTopContent .dd .panel .services{
+	box-sizing: border-box;
+}
+ul.serviceList{
+	overflow: hidden;
+	list-style: none;
+	margin-top: 18px;
+	padding-top: 18px;
+	margin-right: -10px;
+	box-sizing: border-box;
+}
+.serviceList li{
+	border:1px solid #ddd;
+	background: #fff;
+	margin-right: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+.serviceList li img{
+	width: 87px;
+	height: 87px;
+	display: block;
+	margin:7px;
+}
+.serviceList li p{
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom:10px;
+	line-height: 12px;
+}
+
+ul#tableList{
+	padding: 0;
+}
+ul#tableList li{
+ 	list-style: none;
+	float: left;
+	padding:10px 20px;
+	width: 81px;
+	color: #333;
+	border:1px solid #fff;
+	cursor: pointer;
+	text-align: center;
+}
+.tabin{             /*被选中的标签*/
+	background-color: #fff;
+	border:1px solid #6e6e6e;
+	color: #fff;
+}
+.tabContent{          
+	clear:both;
+	background-color: #fff;
+	color: #333;
+	width: 370px;
+	height: 166px;
+	padding:0;
+	display: none;
+}
+.current{            /*选中标签的相应内容*/
+	display: block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.inquireItem,.fadbackItem{
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.inquireItem p,.fadbackItem p{
+	float: left;
+	width: 50%;
+	height: 24px;
+	font-size: 14px;
+}
+#suggestText{
+	width: 100%;
+	height: 68px;
+	vertical-align: middle;
+	margin:5px 0 9px;
+	box-sizing: border-box;
+	resize: none;
+}
+.inquireBtn,.fadbackBtn,.suggestBtn{
+	background: #333;
+	height: 24px;
+	line-height: 24px;
+	width: 60px;
+	font-size: 13px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}
+
+
+
+/*footer*/
+footer{
+	width: 100%;
+}
+footer .promise{
+	padding: 20px 0;
+	background: #333;
+	
+}
+footer .promise .promiseContent{
+	width: 1150px;
+	margin:0 auto;
+}
+footer .promise .promiseContent .promiseList{
+	margin-right: 102px;
+	line-height: 16px;
+	font-size: 16px;
+	font-weight: 700;
+	float: left;
+}
+footer .promise .promiseContent .promiseList5{
+	margin-right:0;
+}
+footer .promise .promiseContent .promiseIcon1{
+	background:url(../images/7days.jpg) 16px 16px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+footer .promise .promiseContent .promiseIcon2{
+	background:url(../images/icons.png);
+	background-position: -200px -20px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+footer .promise .promiseContent .promiseIcon3{
+	background:url(../images/icons.png);
+	background-position: -20px -20px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+} 
+footer .promise .promiseContent .promiseIcon4{
+	background:url(../images/12hours.png);
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+} 
+footer .promise .promiseContent .promiseIcon5{
+	background:url(../images/baozhang.png);
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+} 
+footer .promise .promiseContent .red{
+	color: #e01;
+	margin-right: -5px;
+}
+footer .promise .promiseContent .white{
+	color:#fff;
+}
+footer .footerLinks{
+	background: #333;
+	padding: 20px 0 20px;
+	font-size: 14px;
+}
+footer .linksContent{
+	border-top: 1px solid #505050;
+	width: 1150px;
+	margin:0 auto;
+}
+footer .linksContent .aboutUs{
+	line-height: 20px;
+	color: #666;
+	text-align: center;
+	padding-top: 20px;
+}
+footer .linksContent .aboutUs p a{
+	text-decoration: none;
+	color: #666;
+}
+footer .linksContent .aboutUs p span{
+	padding: 0 10px;
+}

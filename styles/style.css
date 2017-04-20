@@ -1,0 +1,76 @@
+/* body中的class pink purple blue green 四种皮肤风格 */
+
+/*pink style*/
+.pink .search .searchBtn{
+	background: #ff6666;
+}
+.pink .search .searchText{
+	border-color: #ff6666;
+}
+.pink nav{
+	background: #ff6666;
+}
+.pink .goodsItem p:hover{
+	color: #ff6666;
+}
+.pink .styleTitle h2{
+	border-color: #ff6666;
+	color: #ff6666;
+}
+
+
+/*purple style*/
+.purple .search .searchBtn{
+	background: #6666ff;
+}
+.purple .search .searchText{
+	border-color: #6666ff;
+}
+.purple nav{
+	background: #6666ff;
+}
+.purple .goodsItem p:hover{
+	color: #6666ff;
+}
+.purple .styleTitle h2{
+	border-color: #6666ff;
+	color: #6666ff;
+}
+
+
+/*blue style*/
+.blue .search .searchBtn{
+	background: #0080ff;
+}
+.blue .search .searchText{
+	border-color: #0080ff;
+}
+.blue nav{
+	background: #0080ff;
+}
+.blue .goodsItem p:hover{
+	color: #0080ff;
+}
+.blue .styleTitle h2{
+	border-color: #0080ff;
+	color: #0080ff;
+}
+
+
+/*green style*/
+.green .search .searchBtn{
+	background: #0ba15d;
+}
+.green .search .searchText{
+	border-color: #0ba15d;
+}
+.green nav{
+	background: #0ba15d;
+}
+.green .goodsItem p:hover{
+	color: #0ba15d;
+}
+.green .styleTitle h2{
+	border-color: #0ba15d;
+	color: #0ba15d;
+}

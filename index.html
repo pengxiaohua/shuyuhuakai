@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>淑语花开</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<!-- 头部内容 -->
+	<header>
+		<div class="headerContent">
+			<ul class="changeSkin" id="skinControl" title="更换主题色">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="logo">
+				<a href="index.html" class="logoLink"></a>
+			</div>
+			<div class="search">
+				<form action="#" method="get">
+					<input type="text" class="searchText"><input type="submit" class="searchBtn" value="搜索">
+				</form>
+			</div>
+		</div>
+	</header>
+	<!-- 导航部分 -->
+	<nav>
+		<div class="navContent">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#newGoods">新品推荐</a></li>			
+				<li><a href="#tops">上装</a></li>			
+				<li><a href="#bottoms">下装</a></li>			
+				<li><a href="#dress">连衣裙</a></li>			
+				<li><a href="#suit">时尚套装</a></li>			
+				<li><a href="#overcoat">大衣</a></li>			
+				<li><a href="#">其他</a></li>			
+			</ul>
+		</div>
+	</nav>
+
+	<!-- 回到顶部 -->
+	<div class="go-top dn" id="go-top">
+	    <a href="javascript:;" class="uc-2vm"></a>
+		<div class="uc-2vm-pop dn">
+			<h2 class="title-2wm">打开淘宝扫一扫</h2>
+			<div class="logo-2wm-box">
+				<img src="images/taobao.png"  width="140px" height="140px">
+			</div>
+		</div>
+	    <a href="javascript:;" class="go"></a>
+	</div>
+
+	<!-- content内容 -->
+	<div class="content">
+		 <!-- 轮播图 -->
+		 <div id="banner_tabs" class="flexslider">
+			<ul class="slides">
+				<li>
+					<a title="" target="_blank" href="#">
+						<img alt="" style="background: url(images/banner2.jpg) no-repeat center;">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img alt="" style="background: url(images/banner3.jpg) no-repeat center;">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img alt="" style="background: url(images/banner4.jpg) no-repeat center;">
+					</a>
+					<li>
+					<a title="" href="#">
+						<img alt="" style="background: url(images/banner5.jpg) no-repeat center;">
+					</a>
+				</li>
+				</li>
+			</ul>
+			<ul class="flex-direction-nav">
+				<li><a class="flex-prev" href="javascript:;">Previous</a></li>
+				<li><a class="flex-next" href="javascript:;">Next</a></li>
+			</ul>
+			<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+				<li><a>1</a></li>
+				<li><a>2</a></li>
+				<li><a>2</a></li>
+				<li><a>2</a></li>
+			</ol>
+		</div>
+<!-- 商品排列 -->
+	<!-- 新品推荐 -->
+		<div class="newGoods" id="newGoods">
+			<div class="styleTitle">
+				<h2>新品推荐</h2>
+			</div>
+			<div class="goodsBox">
+				<ul class="goodsList">
+					<li class="goodsItem goodsItem1">
+						<a href="#" class="goodsImg" ><img src="images/xp1.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国风2016秋季新款女装长袖针织衫开叉修身显瘦一字领露肩毛衣女</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem2">
+						<a href="#" class="goodsImg"><img src="images/xp2.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋冬半身裙新款韩版女装气质款pu皮裙隐形拉链修身显瘦短裙女裙子</p></a>
+						<p class="goodsPrice">￥65.00</p>
+					</li>
+					<li class="goodsItem goodsItem3">
+						<a href="#" class="goodsImg"><img src="images/xp3.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋季新款女装百搭一字领露肩针织衫韩版肩带九分袖毛衣女上衣批发</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem4">
+						<a href="#" class="goodsImg"><img src="images/xp4.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬新款长袖纯色西装外套中长款大牌气质款大衣秋款腰带风衣</p></a>
+						<p class="goodsPrice">￥188.00</p>
+					</li>
+					<li class="goodsItem goodsItem5">
+						<a href="#" class="goodsImg"><img src="images/xp5.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋季新款时尚套装职业两件套长袖西装外套韩国风休闲裤喇叭裤批发</p></a>
+						<p class="goodsPrice">￥197.00</p>
+					</li>
+					<li class="goodsItem goodsItem6">
+						<a href="#" class="goodsImg"><img src="images/xp6.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋装新款女装圆领修身显瘦针织衫套头露肩毛衣百搭打底衫韩版</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem7">
+						<a href="#" class="goodsImg"><img src="images/xp7.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>新款秋冬半身裙混金丝线黑色百褶裙韩版女装百搭休闲中长裙批发</p></a>
+						<p class="goodsPrice">￥59.00</p>
+					</li>
+					<li class="goodsItem goodsItem8">
+						<a href="#" class="goodsImg"><img src="images/xp8.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬新款纯色单排扣翻领无袖马夹女中长款西装背心女外套批发</p></a>
+						<p class="goodsPrice">￥138.00</p>
+					</li>
+					<li class="goodsItem goodsItem9">
+						<a href="#" class="goodsImg"><img src="images/xp9.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋装新款女装开叉V领毛衣套头长袖针织衫韩版秋款打底衫批发</p></a>
+						<p class="goodsPrice">￥64.00</p>
+					</li>
+					<li class="goodsItem goodsItem10">
+						<a href="#" class="goodsImg"><img src="images/xp10.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门女装秋季新款拼接流苏半身裙灯芯绒A字裙流行款短裙女</p></a>
+						<p class="goodsPrice">￥49.00</p>
+					</li>
+					<li class="goodsItem goodsItem11">
+						<a href="#" class="goodsImg"><img src="images/xp11.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬新款打底针织衫修身显瘦套头毛衣女高领长袖毛衫女上衣</p></a>
+						<p class="goodsPrice">￥54.00</p>
+					</li>
+					<li class="goodsItem goodsItem12">
+						<a href="#" class="goodsImg"><img src="images/xp12.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋款新品拉链设计仿皮绒短裙修身显瘦半身裙秋冬百搭款女裙子</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!-- 上装 -->
+		<div class="tops" id="tops">
+			<div class="styleTitle">
+				<h2>上装</h2>
+				<div class="changeColumn">
+					<i class="icon1" title="切换三列布局"></i>
+					<i class="icon3" title="切换四列布局"></i>
+				</div>
+			</div>
+			<div class="goodsBox">
+				<ul class="goodsList">
+					<li class="goodsItem goodsItem1">
+						<a href="#" class="goodsImg"><img src="images/top1.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国风2016秋季新款女装长袖针织衫开叉修身显瘦一字领露肩毛衣女</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem2">
+						<a href="#" class="goodsImg"><img src="images/top2.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋季新款女装百搭一字领露肩针织衫韩版肩带九分袖毛衣女上衣批发</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem3">
+						<a href="#" class="goodsImg"><img src="images/top3.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋装新款女装圆领修身显瘦针织衫套头露肩毛衣百搭打底衫韩版</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem4">
+						<a href="#" class="goodsImg"><img src="images/top4.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋装新款女装开叉V领毛衣套头长袖针织衫韩版秋款打底衫批发</p></a>
+						<p class="goodsPrice">￥64.00</p>
+					</li>
+					<li class="goodsItem goodsItem5">
+						<a href="#" class="goodsImg"><img src="images/top5.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬新款打底针织衫修身显瘦套头毛衣女高领长袖毛衫女上衣</p></a>
+						<p class="goodsPrice">￥54.00</p>
+					</li>
+					<li class="goodsItem goodsItem6">
+						<a href="#" class="goodsImg"><img src="images/top6.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬季新款女装七分袖针织衫韩国东大门条纹撞色女上衣批发</p></a>
+						<p class="goodsPrice">￥48.00</p>
+					</li>
+					<li class="goodsItem goodsItem7">
+						<a href="#" class="goodsImg"><img src="images/top7.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>新款女装秋冬热卖款外套纯色v领长袖针织开衫女上衣披肩女士毛衣</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem8">
+						<a href="#" class="goodsImg"><img src="images/top8.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋季韩版新款女装修身显瘦针织衫套头翻领短袖打底衫毛衣女批发</p></a>
+						<p class="goodsPrice">￥65.00</p>
+					</li>
+					<li class="goodsItem goodsItem9">
+						<a href="#" class="goodsImg"><img src="images/top9.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016新款秋装中长款宽松大码衬衣长袖百搭女上衣微喇叭开叉女装</p></a>
+						<p class="goodsPrice">￥68.00</p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	<!-- 下装 -->
+		<div class="bottoms newGoods" id="bottoms">
+			<div class="styleTitle">
+				<h2>下装</h2>
+				<div class="changeColumn">
+					<i class="icon2" title="切换四列布局"></i>
+					<i class="icon4" title="切换三列布局"></i>
+				</div>
+			</div>
+			<div class="goodsBox">
+				<ul class="goodsList">
+					<li class="goodsItem goodsItem1">
+						<a href="#" class="goodsImg"><img src="images/bottom1.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋冬半身裙新款韩版女装气质款pu皮裙隐形拉链修身显瘦短裙女裙子</p></a>
+						<p class="goodsPrice">￥65.00</p>
+					</li>
+					<li class="goodsItem goodsItem2">
+						<a href="#" class="goodsImg"><img src="images/bottom2.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>新款秋冬半身裙混金丝线黑色百褶裙韩版女装百搭休闲中长裙批发</p></a>
+						<p class="goodsPrice">￥59.00</p>
+					</li>
+					<li class="goodsItem goodsItem3">
+						<a href="#" class="goodsImg"><img src="images/bottom3.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门女装秋季新款拼接流苏半身裙灯芯绒A字裙流行款短裙女</p></a>
+						<p class="goodsPrice">￥49.00</p>
+					</li>
+					<li class="goodsItem goodsItem4">
+						<a href="#" class="goodsImg"><img src="images/bottom4.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋款新品拉链设计仿皮绒短裙修身显瘦半身裙秋冬百搭款女裙子</p></a>
+						<p class="goodsPrice">￥58.00</p>
+					</li>
+					<li class="goodsItem goodsItem5">
+						<a href="#" class="goodsImg"><img src="images/bottom5.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装高腰开叉宽松休闲百搭西裤九分裤</p></a>
+						<p class="goodsPrice">￥69.00</p>
+					</li>
+					<li class="goodsItem goodsItem6">
+						<a href="#" class="goodsImg"><img src="images/bottom6.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>牛仔裤女秋季新款韩版女装高腰九分牛仔裤修身显瘦微喇叭女长裤</p></a>
+						<p class="goodsPrice">￥79.00</p>
+					</li>
+					<li class="goodsItem goodsItem7">
+						<a href="#" class="goodsImg"><img src="images/bottom7.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016秋款新品女雪纺半身裙中长款百搭开叉包臀一步裙</p></a>
+						<p class="goodsPrice">￥69.00</p>
+					</li>
+					<li class="goodsItem goodsItem8">
+						<a href="#" class="goodsImg"><img src="images/bottom8.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>东大门秋季新款韩版女装气质休闲裤修身显瘦喇叭裤高腰雪纺九分裤</p></a>
+						<p class="goodsPrice">￥79.00</p>
+					</li>
+					<li class="goodsItem goodsItem9">
+						<a href="#" class="goodsImg"><img src="images/bottom9.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>原创2016秋冬新款半身裙韩版女装时尚针织款女裙子百搭气质针织裙</p></a>
+						<p class="goodsPrice">￥59.00</p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!-- 连衣裙 -->
+		<div class="dress newGoods" id="dress">
+			<div class="styleTitle">
+				<h2>连衣裙</h2>
+			</div>
+			<div class="goodsBox">
+				<ul class="goodsList">
+					<li class="goodsItem goodsItem1">
+						<a href="#" class="goodsImg"><img src="images/dress1.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016春夏新款女针织无袖中裙宽松外穿背带连衣裙a字裙</p></a>
+						<p class="goodsPrice">￥85.00</p>
+					</li>
+					<li class="goodsItem goodsItem2">
+						<a href="#" class="goodsImg"><img src="images/dress2.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋装新品韩版修身连衣裙露腰女装裙子圆领无袖中裙女批发代发</p></a>
+						<p class="goodsPrice">￥75.00</p>
+					</li>
+					<li class="goodsItem goodsItem3">
+						<a href="#" class="goodsImg"><img src="images/dress3.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016夏季新品修身印花连衣裙碎花高腰中裙韩版V领女裙子一件代发</p></a>
+						<p class="goodsPrice">￥85.00</p>
+					</li>
+					<li class="goodsItem goodsItem4">
+						<a href="#" class="goodsImg"><img src="images/dress4.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装棉麻开衫腰带宽松批发短袖连衣裙</p></a>
+						<p class="goodsPrice">￥79.00</p>
+					</li>
+					<li class="goodsItem goodsItem5">
+						<a href="#" class="goodsImg"><img src="images/dress5.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装镂空蕾丝刺绣百搭中袖连衣裙批发</p></a>
+						<p class="goodsPrice">￥99.00</p>
+					</li>
+					<li class="goodsItem goodsItem6">
+						<a href="#" class="goodsImg"><img src="images/dress6.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装条纹衬衫腰带宽松长款中袖连衣裙</p></a>
+						<p class="goodsPrice">￥79.00</p>
+					</li>
+					<li class="goodsItem goodsItem7">
+						<a href="#" class="goodsImg"><img src="images/dress7.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>东大门女装连衣裙2016夏季新品高腰雪纺绣花裙子修身显瘦公主裙</p></a>
+						<p class="goodsPrice">￥103.00</p>
+					</li>
+					<li class="goodsItem goodsItem8">
+						<a href="#" class="goodsImg"><img src="images/dress8.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>东大门女装雪纺韩版连衣裙2016夏季新款露肩高腰圆领女裙一件代发</p></a>
+						<p class="goodsPrice">￥79.00</p>
+					</li>
+					<li class="goodsItem goodsItem9">
+						<a href="#" class="goodsImg"><img src="images/dress9.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装刺绣九分袖宽松连衣裙女</p></a>
+						<p class="goodsPrice">￥72.00</p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!-- 时尚套装 -->
+		<div class="suit newGoods" id="suit">
+			<div class="styleTitle">
+				<h2>时尚套装</h2>
+			</div>
+			<div class="goodsBox">
+				<ul class="goodsList">
+					<li class="goodsItem goodsItem1">
+						<a href="#" class="goodsImg"><img src="images/suit1.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋季女装新款休闲毛衣裤子两件套阔腿裤镂空针织套装小香风</p></a>
+						<p class="goodsPrice">￥139.00</p>
+					</li>
+					<li class="goodsItem goodsItem2">
+						<a href="#" class="goodsImg"><img src="images/suit2.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋季新款女装西装马甲两件套小性感裤子时尚休闲阔腿裤套装</p></a>
+						<p class="goodsPrice">￥149.00</p>
+					</li>
+					<li class="goodsItem goodsItem3">
+						<a href="#" class="goodsImg"><img src="images/suit3.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋装新款精品女装休闲套装小喇叭长裤韩国秋款两件套批发</p></a>
+						<p class="goodsPrice">￥135.00</p>
+					</li>
+					<li class="goodsItem goodsItem4">
+						<a href="#" class="goodsImg"><img src="images/suit4.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装吊带背心腰带短裤时尚套装女批发</p></a>
+						<p class="goodsPrice">￥120.00</p>
+					</li>
+					<li class="goodsItem goodsItem5">
+						<a href="#" class="goodsImg"><img src="images/suit5.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>秋季新款时尚套装职业两件套长袖西装外套韩国风休闲裤喇叭裤批发</p></a>
+						<p class="goodsPrice">￥201.00</p>
+					</li>
+					<li class="goodsItem goodsItem6">
+						<a href="#" class="goodsImg"><img src="images/suit6.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016女装新款v领喇叭袖上衣高腰短裤时尚雪纺套装女</p></a>
+						<p class="goodsPrice">￥99.00</p>
+					</li>
+					<li class="goodsItem goodsItem7">
+						<a href="#" class="goodsImg"><img src="images/suit7.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏装新品韩版女装短袖T恤包臀荷叶摆休闲时尚套装</p></a>
+						<p class="goodsPrice">￥95.00</p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<!-- 大衣 -->
+		<div class="overcoat newGoods" id="overcoat">
+			<div class="styleTitle">
+				<h2>大衣</h2>
+			</div>
+			<div class="goodsBox">
+				<ul class="goodsList">
+					<li class="goodsItem goodsItem1">
+						<a href="#" class="goodsImg"><img src="images/overcoat1.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬新款长袖纯色西装外套中长款大牌气质款大衣秋款腰带风衣</p></a>
+						<p class="goodsPrice">￥188.00</p>
+					</li>
+					<li class="goodsItem goodsItem2">
+						<a href="#" class="goodsImg"><img src="images/overcoat2.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>2016秋冬新款纯色单排扣翻领无袖马夹女中长款西装背心女外套批发</p></a>
+						<p class="goodsPrice">￥138.00</p>
+					</li>
+					<li class="goodsItem goodsItem3">
+						<a href="#" class="goodsImg"><img src="images/overcoat3.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016春新款韩版女无袖西装中长款过膝宽松百搭马甲外套</p></a>
+						<p class="goodsPrice">￥128.00</p>
+					</li>
+					<li class="goodsItem goodsItem4">
+						<a href="#" class="goodsImg"><img src="images/overcoat4.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016夏季新款韩版女装防晒衫宽松七分袖雪纺开衫女士</p></a>
+						<p class="goodsPrice">￥31.00</p>
+					</li>
+					<li class="goodsItem goodsItem5">
+						<a href="#" class="goodsImg"><img src="images/overcoat5.jpg" alt=""></a>
+						<a href="#" class="goodsTitle"><p>韩国东大门2016春装新款韩版女装中长款过膝宽松百搭薄款风衣外套</p></a>
+						<p class="goodsPrice">￥67.00</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- footTop部分 -->
+	<div class="footTop">
+		<dl class="footTopContent">
+			<div class="dd">
+				<div class="panel">
+					<div class="title">
+						<div class="titleLine"></div>
+							<div class="titleText">
+								<span>淑语花开SERVICE</span>
+							</div>
+					</div>
+					<div class="services">
+						<ul class="serviceList">
+							<li class="left">
+								<img src="images/website.png">
+								<p>淑语花开官网</p>
+							</li>
+							<li class="left">
+								<img src="images/taobao.png">
+								<p>淘宝店</p>
+							</li>
+							<li class="left">
+								<img src="images/weibo.png">
+								<p>官方微博</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="dd">
+				<ul id="tableList">
+					<li class="tabin">调查</li>
+					<li>反馈</li>
+					<li>建议</li>
+				</ul>
+
+				<div class="tabContent current">
+					<form action="#" class="inquire">
+						<div>您最期待我们上新什么新款？</div>
+						<div class="inquireItem">
+							<p><input type="radio" name="inquire">上装</p>
+							<p><input type="radio" name="inquire">裤子</p>
+							<p><input type="radio" name="inquire">裙子</p>
+							<p><input type="radio" name="inquire">大衣</p>
+							<p><input type="radio" name="inquire">其他</p>
+						</div>
+						<div>
+							<span class="inquireBtn">提交</span>
+						</div>
+					</form>
+				</div>
+				<div class="tabContent">
+					<form action="#" class="fadback">
+						<div>您可以很方便的找到您想找的衣服吗？</div>
+						<div class="fadbackItem">
+							<p><input type="radio" name="fadback">非常方便</p>
+							<p><input type="radio" name="fadback">比较方便</p>
+							<p><input type="radio" name="fadback">一般般</p>
+							<p><input type="radio" name="fadback">不太方便</p>
+							<p><input type="radio" name="fadback">非常不方便</p>
+						</div>
+						<div>
+							<span class="fadbackBtn">提交</span>
+						</div>
+					</form>
+				</div>
+				<div class="tabContent">
+					<form action="#" class="suggest">
+						<div>您对我们的网站还有哪些建议？</div>
+						<div class="suggestItem">
+							<textarea name="suggest" id="suggestText"></textarea>
+						</div>
+						<div>
+							<span class="suggestBtn">提交</span>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="dd" style="margin-right:0">
+				<div class="panel">
+					<div class="title">
+						<div class="titleLine"></div>
+							<div class="titleText">
+								<span>更多新款MORE</span>
+							</div>
+					</div>
+					<div class="services">
+						<ul class="serviceList">
+							<li class="left">
+								<img src="images/website.png">
+								<p>淑语花开官网</p>
+							</li>
+							<li class="left">
+								<img src="images/taobao.png">
+								<p>淘宝店</p>
+							</li>
+							<li class="left">
+								<img src="images/weibo.png">
+								<p>官方微博</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</dl>
+	</div>
+	<!-- 底部内容 -->
+	<footer>
+		<div class="promise">
+			<div class="promiseContent">
+				<div class="promiseList" title="自商品签收之日起 7 天内，支持7天无理由退货">
+					<span class="promiseIcon1"></span>
+					<span class="red">7天</span>
+					<span class="white">无理由退货</span>
+				</div>
+				<div class="promiseList" title="卖家可以使用信用卡快捷支付">
+					<span class="promiseIcon2"></span>
+					<span class="red">信用卡</span>
+					<span class="white">支付</span>
+				</div>
+				<div class="promiseList" title="卖家为企业店铺，品质有保障">
+					<span class="promiseIcon3"></span>
+					<span class="red">企业店铺</span>
+					<span class="white">品质保证</span>
+				</div>
+				<div class="promiseList" title="承诺：付款后12小时内发货">
+					<span class="promiseIcon4"></span>
+					<span class="red">12小时内</span>
+					<span class="white">快捷发货</span>
+				</div>
+				<div class="promiseList promiseList5" title="卖家已缴纳1001元保证金">
+					<span class="promiseIcon5"></span>
+					<span class="red">消费者</span>
+					<span class="white">保障服务</span>
+				</div>
+			</div>
+		</div>
+		<div class="footerLinks">
+			<div class="linksContent">
+				<div class="aboutUs">
+					<p>
+						<a href="index.html">返回首页</a>
+						<span>|</span>
+						<a href="http://shuyuhuakai.taobao.com" target="_blank">淘宝店铺</a>
+						<span>|</span>
+						<a href="#">联系我们</a>
+						<span>|</span>
+						<a href="#">关于我们</a>
+						<span>|</span>
+						<a href="#">友情链接</a>
+					</p>
+					<p>
+						CopyRight © 2015-2016 武汉淑语电子商务有限公司 鄂ICP备02541243号 NewPower Co. 版权所有
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/slider.js"></script>
+</body>
+</html>
